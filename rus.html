@@ -1,0 +1,393 @@
+﻿
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BANK OF BNB | Лучшая инвестиционная игра на блокчейне Binance.</title>
+	<link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/lib/slick/slick.css">
+	<link rel="stylesheet" href="css.css?family=Montserrat:300,400,500,600,700%7CWork+Sans:400,500,600,700%7CPlayfair+Display:400,700">
+	<link rel="stylesheet" href="releases/v5.5.0/css/all.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main-1.css?11112">
+	<link rel="icon" href="assets/images/favicon.png">
+</head>
+<body>
+	<!-- <div id="page-loader"> -->
+		<!-- <i class="fab fa-cog fa-spin grad-text grad-2"></i> -->
+	<!-- </div> -->
+
+	<header>
+		<nav class="side-menu-container" id="mobile-menu">
+			<ul class="mx-auto top-level clearfix">
+				<li class="with-submenu">
+					<a href="index.htm">ГЛАВНАЯ</a>
+				</li>
+				<li class="with-submenu">
+					<a href="#about">О ПРОЕКТЕ</a>
+				</li>
+
+				<li class="with-submenu">
+					<a href="https://bscscan.com/address/0x847ff221d4b8f92a51eca9492f5283514603be66" target="_blank">КОНТРАКТ [BSCSCAN]</a>
+				</li>
+
+				<li class="with-submenu">
+					<a href="https://bscscan.com/address/0x847ff221d4b8f92a51eca9492f5283514603be66" target="_blank">КОД КОНТРАКТА</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="pos-r">
+			<div id="topbar" class="clearfix">
+
+				<div class="top-util pull-right">
+					<div class="socialnet">
+						<a href="https://t.me/bank_of_bnb" class="socialnet" target="_blank" style="margin-right:15px;"><i class="fab fa-telegram-plane zmdi-lg"></i></a>
+
+					</div>
+					<div class="lang-selection">
+						<a href="#"><img src="assets/images/flag-ru.png" alt="us">RU</a>
+						<ul class="lang">
+							<li><a href="index.htm"><img src="assets/images/flag-us.png" alt="ru">EN</a></li>
+							<li style='white-space:nowrap;'><a href="cn.html"><img src="assets/images/flag-cn.png" alt="cn">中文</a></li>
+						</ul>
+					</div>
+					
+
+
+
+					<div class="side-menu">
+						<a href="#" class="side-menu-button"><span></span><span></span><span></span></a>
+					</div>
+
+				</div>
+
+				<div class="logo pull-left">
+					<a href="rus.html">
+						<h1><img src="assets/images/top-logo.png" alt="logo"></h1>
+					</a>
+				</div>
+				<nav id="desktop-menu">
+					<ul class="mx-auto top-level clearfix">
+						<li class="with-submenu">
+							<a href="rus.html" class="link-hover">ГЛАВНАЯ</a>
+						</li>
+						<li class="with-submenu">
+							<a href="#about" class="link-hover">О ПРОЕКТЕ</a>
+						</li>
+
+						<li class="with-submenu">
+							<a href="address/0xab15b23618076854b305736eb1e764c513cec54f.html" class="link-hover" target="_blank">КОНТРАКТ [BSCSCAN]</a>
+						</li>
+
+						<li class="with-submenu">
+							<a href="address/0xab15b23618076854b305736eb1e764c513cec54f.html#code" class="link-hover" target="_blank">КОД КОНТРАКТА</a>
+						</li>						
+					</ul>
+
+				</nav>
+			</div>
+		</div>
+		<div class="header-content fullheight">
+			<div class="slick-header fullheight">
+
+				<div class="header-slide slide-1">
+					<img src="assets/images/slider-bg-3.jpg" alt="Slider Background" class="slider-background">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 offset-md-6">
+								<h2><span class="nowrapped">Получайте 3.7% - 6.7%</span><br><span class="nowrapped">в день!</span></h2>
+							</div>
+							<div class="col-md-6 offset-md-6">
+								<p>
+									Децентрализованный & Безопасный инвестиционный фонд, основанный на технологии умных контрактов BNBEREUM.
+									
+								</p>
+							</div>
+							<div class="col-lg-6 offset-lg-6">
+								<a href="#investPlans" class="button-link-1 style-3 pushtop-30">ИНВЕСТИРОВАТЬ <i class="fas fa-caret-right"></i></a>	
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<main>
+	
+		
+		<div class="widget-20 text-center pushtop-30">
+			<p class="pretitle">Резерв банка</p>
+			<h3 id="contractBalance" class="blue"><i class="fas fa-spinner fa-spin"></i> BNB</h3>
+			<br>Ваш BNBEREUM кошелек: <b id="yourAcc"><i class="fas fa-spinner fa-spin"></i></b>
+			<br>Баланс вашего кошелька: <b id="accBalance"><i class="fas fa-spinner fa-spin"></i></b> BNB
+			
+
+			<div class="container" id="investPlans">
+				<div class="row pushtop-50">
+
+					<div class="col-lg-6 col-xl-3">
+						<div class="plan-box box-1 pushtop-30">
+							<p class="pretitle">Алмазный План<br>[ <span class="text-orange">Ежедневный доход</span> ]</p>
+							<p class="price-main"><span class="price">3.7%</span></p>
+							<ul class="text-left">
+								<li>Дивиденды ежесекундно</li>
+								<li><b>Навсегда</b></li>
+								<li>Вернется <b>∞</b></li>
+								<li>Мин. вклад 0.01 BNB</li>								
+								<br><br>
+								<div class="input-group mb-2 mr-sm-2" style="position:relative; left:23px;">							
+									<input type="text" autocomplete="off" placeholder="0" min="0.01" class="form-control text-center" id="trxForPlan0">
+									<div class="input-group-append text-orange">
+									  BNB
+									</div>				
+								</div>									
+							</ul>
+							<a href="javascript: invest(0)" class="button-link-1">ИНВЕСТИРОВАТЬ</a>
+							
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-xl-3">
+						<div class="plan-box box-2 pushtop-30">
+							<p class="pretitle">Платиновый План<br>[ <span class="text-orange">Ежедневный доход</span> ]</p>
+							<p class="price-main"><span class="price">4.7%</span></p>
+							<ul>
+								<li>Дивиденды ежесекундно</li>
+								<li><b>45 days</b></li>
+								<li>Вернется <b>211.5%</b></li>
+								<li>Мин. вклад 0.01 BNB</li>								
+								<br><br>
+								<div class="input-group mb-2 mr-sm-2" style="position:relative; left:23px;">							
+									<input type="text" autocomplete="off" placeholder="0" min="0.01" class="form-control text-center" id="trxForPlan1">
+									<div class="input-group-append text-orange">
+									  BNB
+									</div>				
+								</div>	
+							</ul>
+							<a href="javascript: invest(1)" class="button-link-1">ИНВЕСТИРОВАТЬ</a>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-xl-3">
+						<div class="plan-box box-3 pushtop-30">
+							<p class="pretitle">Золотой План<br>[ <span class="text-orange">Ежедневный доход</span> ]</p>
+							<p class="price-main"><span class="price">5.7%</span></p>
+							<ul>
+								<li>Дивиденды ежесекундно</li>
+								<li><b>25 days</b></li>
+								<li>Вернется <b>142.5%</b></li>
+								<li>Мин. вклад 0.01 BNB</li>								
+								<br><br>
+								<div class="input-group mb-2 mr-sm-2" style="position:relative; left:23px;">							
+									<input type="text" autocomplete="off" placeholder="0" min="0.01" class="form-control text-center" id="trxForPlan2">
+									<div class="input-group-append text-orange">
+									  BNB
+									</div>				
+								</div>	
+							</ul>
+							<a href="javascript: invest(2)" class="button-link-1">ИНВЕСТИРОВАТЬ</a>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-xl-3">
+						<div class="plan-box box-4 pushtop-30">
+							<p class="pretitle">Бронзовый План<br>[ <span class="text-orange">Ежедневный доход</span> ]</p>
+							<p class="price-main"><span class="price">6.7%</span></p>
+							<ul>
+								<li>Дивиденды ежесекундно</li>
+								<li><b>18 days</b></li>
+								<li>Вернется <b>120.6%</b></li>
+								<li>Мин. вклад 0.01 BNB</li>								
+								<br><br>
+								<div class="input-group mb-2 mr-sm-2" style="position:relative; left:23px;">							
+									<input type="text" autocomplete="off" placeholder="0" min="0.01" class="form-control text-center" id="trxForPlan3">
+									<div class="input-group-append text-orange">
+									  BNB
+									</div>				
+								</div>	
+							</ul>
+							<a href="javascript: invest(3)" class="button-link-1">ИНВЕСТИРОВАТЬ</a>
+						</div>
+					</div>					
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="widget-4 pushtop-130 drag-this-up">
+			<div class="container">
+				<div class="widget4-wrapper">
+
+					<div class="widget-4-progress-detail">
+						<div class="widget-4-progress-item item-1 active">
+							<div class="row">
+								<div class="col-md-6">
+									<h4><i class="fas fa-coins"></i> Дивиденды</h4>
+									<br>Реферальное вознаграждение
+									<br><b id="availableReferrerEarnings">0.00</b> BNB
+									<br><br>Для вывода(включая реферальные)
+									<br><b id="withdrawable">0.00</b> BNB
+									<a href="javascript:withdraw()" class="button-link-1 pushtop-30" id="withdrawButton">ВЫВЕСТИ</a>
+									<br>
+									Все ваши инвестиции <b class="totalInvestment" id="totalInvestment">0.00</b> BNB
+									<br>
+									Заработанные дивиденды <b class="totalDivs" id="totalDivs">0.00</b> BNB
+								</div>
+								<div class="col-md-6">
+									<h4><i class="fas fa-user-friends"></i> Реферальная программа</h4>
+									<br>Ваша реферальная ссылка [<a href='javascript:copyRef()' id="copy">COPY LINK</a>]: 
+									<div id="yourRefLink" style="font-weight:bold;">Нет ссылки...</div>
+									Реферальная ссылка доступна только после инвестирования.<br>
+									
+									<br>1 реф. уровень （вознаграждение 5%） - <b id="level1RefCount">0</b>
+									<br>2 реф. уровень （вознаграждение 2%） - <b id="level2RefCount">0</b>
+									<br>3 реф. уровень （вознаграждение 0.5%） - <b id="level3RefCount">0</b>
+									<br>Приглашенный получает вознаграждение 0.5% от своих инвестиций
+									<br><br>Ваш реферальный заработок - <b id="referrerEarnings">0.00</b> BNB
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>		
+
+		<div class="widget-2 text-left pushtop-100 drag-this-up" id="widget-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						
+						<h3><i class="fas fa-university"></i> Ваши инвестиции</h3><br><br>
+						<div id="myIvestments"></div>
+						Все ваши инвестиции <b class="totalInvestment">0.00</b> BNB
+						<br>
+						Заработанные дивиденды <b class="totalDivs">0.00</b> BNB						
+						<br>
+						<a href="#investPlans" class="button-link-1 style-3 pushtop-30">ИНВЕСТИРОВАТЬ <i class="fas fa-caret-right"></i></a>						
+					</div>
+					<div class="col-lg-6">
+						<img src="assets/images/widget-2-1.png" alt="widget-image">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="widget-1 text-center pushtop-80" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 drag-this-left">
+						<section>
+							<div class="image-holder">
+								<img src="assets/images/widget-1-1.png" alt="widget-image">
+							</div>
+							<h6>Безопасный и надежный проект</h6>
+							<p>
+								Bank of BNB автоматически запускается на блокчейне, и его смарт-контракт загружается в блокчейн BNBEREUM. Никто не может редактировать или удалять смарт-контракт или влиять на его автономную работу. Дивиденды также автоматически выплачиваются через смарт-контракт.
+							</p>
+						</section>
+					</div>
+					<div class="col-md-4 drag-this-up">
+						<section>
+							<div class="image-holder">
+								<img src="assets/images/widget-1-2.png" alt="widget-image">
+							</div>
+							<h6>Распределение дивидендов</h6>
+							<p>
+								Смарт-контракт Bank of BNB генерирует 3,7-6,7% дивидендов в день на основе ваших инвестиций и распределяет ваши дивиденды на Ваш баланс. Например, если вы инвестируете в план 4.7%, то вы получите более 100% от вашего первого депозита за 21 день. Дивиденды генерируются каждую секунду, и вы можете снимать или реинвестировать свои дивиденды каждую секунду. Когда вы реинвестируете, общая сумма инвестиций увеличится, и вы получите больше дивидендов.
+							</p>
+						</section>
+					</div>
+					<div class="col-md-4 drag-this-right">
+						<section>
+							<div class="image-holder">
+								<img src="assets/images/widget-1-3.png" alt="widget-image">
+							</div>
+							<h6>Реферальная программа</h6>
+							<p>
+								Смарт-контракт Bank of BNB устанавливает 3 уровня реферальных вознаграждений, которые составляют 5%, 2% и 0,5% соответственно. Кроме того, приглашенный также может получить 0,5% от своих собственных инвестиций в качестве вознаграждения. Реферальные вознаграждения распределяются на Ваш баланс автоматически, и вы можете снять их в любое время.
+							</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	
+
+
+
+		<div class="widget-7">
+			<div class="rising-elements text-center">
+				<div class="rising-elm elm-1" data-trigger="400">
+					<div class="rising-inner">
+						<img src="assets/images/widget-7-elm-1.png" alt="element-image">
+						<h6>Как инвестировать с помощью компьютера?</h6>
+						<p>Вы можете установить кошелек <a href="index-1.htm" target="_blank">MetaMask</a> как расширение браузера Chrome. После установки можно создать новый кошелек BNB или импортировать существующий кошелек BNB, а затем перенести BNB с биржи на кошелек. Потом войдите в TronLink или TronPay, чтобы просмотреть этот сайт и инвестировать.</p>
+					</div>
+					<div class="img-pin"></div>
+				</div><div class="rising-elm elm-2" data-trigger="800">
+					<div class="rising-inner">
+						<img src="assets/images/widget-7-elm-2.png" alt="element-image">
+						<h6>Как инвестировать со смартфона?</h6>
+						<p>Вы можете скачать приложения <a href="index-2.htm" target="_blank">Trust Wallet</a> из магазина приложений. После установки можно создать новый кошелек BNB или импортировать существующий кошелек BNB, а затем перенести BNB с биржи на кошелек. Потом найдите Bank of BNB в приложении wallet или просмотрите наш сайт с помощью браузера в приложении, а затем перейдите к инвестированию или выводу.</p>
+					</div>
+					<div class="img-pin"></div>
+				</div><div class="rising-elm elm-3" data-trigger="600">
+					<div class="rising-inner">
+						<img src="assets/images/widget-7-elm-4.png" alt="element-image">
+						<h6>Как распределяется инвестиционный фонд?</h6>
+						<p>Тех. поддержка: 4% Маркетинг: 4% Реферальная программа: 5%-2%-0.5% Приглашенному участнику: 0.5%. Остальное на выплаты участникам.</p>
+					</div>					
+					<div class="img-pin"></div>
+				</div><div class="rising-elm elm-4" data-trigger="400">
+					<div class="rising-inner">
+						<img src="assets/images/widget-7-elm-3.png" alt="element-image">
+						<h6>Что такое реферальная программа?</h6>
+						<p>Смарт-контракт Bank of BNB устанавливает 3 уровня реферальных вознаграждений, которые составляют 5%, 2% и 0,5% соответственно. Кроме того, приглашенный также может получить 0,5% от своих собственных инвестиций в качестве вознаграждения. Реферальные вознаграждения распределяются на Ваш баланс автоматически, и вы можете снять их в любое время.</p>
+					</div>
+					<div class="img-pin"></div>
+				</div>
+			</div>
+
+			<div class="widget-7-main text-center">
+				<div class="container">
+					<h3><img src="assets/images/logo.png" alt="logo" style="position:relative; top: -5px;"> Bank of BNB</h3>
+					<p class="mx-auto">
+						Социальные сети
+					</p>
+				</div>
+				<div class="buttons pushtop-10">
+					<a href="https://t.me/bank_of_bnb" target="_blank" class="socialnet" style="font-size: 2em; color:#fff"><i class="fab fa-telegram-plane"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<a href="#"></a>
+
+	</main>
+
+
+
+
+
+
+
+<script>
+var lang="rus";
+var inProcessing="Идет отправка...";
+var error1="Ошибка! это было не число!";
+</script>
+<script src="assets/lib/jquery/jquery.js"></script>
+<script src="assets/lib/jquery-ui/jquery-ui.min.js"></script>
+<script src="assets/lib/visible/visible.js"></script>
+<script src="assets/lib/imagesLoaded/imagesLoaded.min.js"></script>
+<script src="assets/js/main.js?1"></script>
+<script src="assets/js/web3.js"></script>
+<script src="assets/js/app-1.js?234277357"></script>
+</body>
+</html>
